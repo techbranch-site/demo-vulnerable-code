@@ -1,0 +1,5 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - mvn verify sonar:sonar -Dsonar.projectKey=techbranch-site_demo-vulnerable-code -Dsonar.organization=techbranch-site -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=token
